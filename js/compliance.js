@@ -147,7 +147,7 @@
                             <p class="text-gray-600 mb-4">As per SEBI regulations, we maintain complete transparency in our complaint resolution process.</p>
                             <p>
                                 <img src="https://res.cloudinary.com/dkv9ghftb/image/upload/v1775835498/Enhanced_Complaint_Report_wk1bdx.jpg"
-                                     alt="SEBI Enhanced Complaint Report showing complaint data and resolution status for TraderPaaji (INH000014845)"
+                                     alt="SEBI Complaint Report - TraderPaaji INH000014845"
                                      class="mx-auto max-w-full h-auto rounded-xl shadow-sm"
                                      loading="lazy">
                             </p>
@@ -528,7 +528,7 @@
                         </summary>
                         <div class="p-6 bg-white rounded-b-xl shadow-md space-y-4 text-sm">
                             <p class="text-center text-gray-600 mb-4">Transparent policies for your peace of mind</p>
-                            <p class="text-center text-xs text-gray-500 mb-6">SEBI Registered Research Analyst: INH000014845</p>
+                            <p class="text-center text-xs text-gray-600 mb-6">SEBI Registered Research Analyst: INH000014845</p>
 
                             <h3 class="font-bold text-base">Refund Policy</h3>
                             <p>We prioritize our customers and are dedicated to delivering the highest quality services.</p>
@@ -684,7 +684,7 @@
                                 <div><i class="fas fa-map-marker-alt text-blue-600" aria-hidden="true"></i> <strong>Address:</strong> C2, 2-3, New Avadhut Society, Near Seventh Day School, Sec - 7, Sanpada, MUMBAI, MAHARASHTRA, 400705</div>
                                 <div><i class="fas fa-phone-alt" aria-hidden="true"></i> <strong>Phone:</strong> +91 85916 89535</div>
                                 <div><i class="fas fa-envelope" aria-hidden="true"></i> <strong>Email:</strong> traderpaajicompliance@gmail.com</div>
-                                <div><i class="fab fa-whatsapp text-green-600" aria-hidden="true"></i> <strong>WhatsApp:</strong> <a href="https://wa.me/918591689535" class="text-green-600 hover:underline" aria-label="Chat on WhatsApp: +91 85916 89535">+91 85916 89535</a></div>
+                                <div><i class="fab fa-whatsapp text-green-800" aria-hidden="true"></i> <strong>WhatsApp:</strong> <a href="https://wa.me/918591689535" class="text-green-800 hover:underline" aria-label="Chat on WhatsApp: +91 85916 89535">+91 85916 89535</a></div>
                             </div>
 
                             <h3 class="font-bold text-base mt-4">Support Hours</h3>
@@ -704,7 +704,7 @@
                                 <a href="https://www.youtube.com/@traderpaaji" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-red-600 hover:underline" aria-label="Subscribe to our YouTube channel">
                                     <i class="fab fa-youtube text-xl" aria-hidden="true"></i> YouTube
                                 </a>
-                                <a href="https://wa.me/918591689535" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-green-600 hover:underline" aria-label="Chat with us on WhatsApp">
+                                <a href="https://wa.me/918591689535" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-green-800 hover:underline" aria-label="Chat with us on WhatsApp">
                                     <i class="fab fa-whatsapp text-xl" aria-hidden="true"></i> WhatsApp
                                 </a>
                             </div>

@@ -39,7 +39,7 @@
                         <div class="flex-shrink-0 relative">
                             <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl rotate-3 opacity-20 blur-sm" aria-hidden="true"></div>
                             <img src="https://res.cloudinary.com/dkv9ghftb/image/upload/v1777581344/traderpaaji-jHB_-yB5_lxaza4.jpg"
-                                 alt="Kulneet Singh Bindra - TraderPaaji, SEBI Registered Research Analyst INH000014845"
+                                 alt="Kulneet Singh Bindra - TraderPaaji, SEBI RA INH000014845"
                                  class="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-2xl object-cover shadow-xl"
                                  loading="lazy">
                         </div>
@@ -127,9 +127,9 @@
                 <div class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 rounded-3xl p-8 sm:p-12 text-center text-white max-w-4xl mx-auto relative overflow-hidden">
                     <div class="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] [background-size:32px_32px] opacity-40" aria-hidden="true"></div>
                     <div class="relative z-10">
-                        <i class="fas fa-quote-left text-3xl text-blue-400/50 mb-4" aria-hidden="true"></i>
+                        <i class="fas fa-quote-left text-3xl text-blue-400 mb-4" aria-hidden="true"></i>
                         <h3 class="text-2xl sm:text-3xl font-bold heading-font mb-6">Trading Philosophy</h3>
-                        <blockquote class="text-lg sm:text-xl text-blue-100 italic mb-4 leading-relaxed">
+                        <blockquote class="text-lg sm:text-xl text-blue-50 italic mb-4 leading-relaxed">
                             "Trading isn't about chasing quick profits, but mastering consistent risk management and disciplined execution."
                         </blockquote>
                         <blockquote class="text-base sm:text-lg text-blue-200 mb-4">

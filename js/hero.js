@@ -9,8 +9,8 @@
                         <span class="bg-emerald-400 text-emerald-950 px-3 py-1 rounded-full text-xs font-mono">INH000014845</span>
                     </div>
                     <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold leading-none tracking-tighter heading-font">Master the<br>Markets with<br>TraderPaaji</h1>
-                    <div class="text-lg sm:text-xl md:text-2xl text-blue-50 font-medium">SEBI-Registered Research Analyst with 8+ years expertise in options & swing trading.</div>
-                    <p class="text-base sm:text-lg text-blue-50/90 max-w-lg">3,000+ traders trained • 1100+ Happy clients • Live market support & guidance • Intraday & Swing Trading Insights • Trading Psychology & Risk Management</p>
+                    <div class="text-lg sm:text-xl md:text-2xl text-white font-medium">SEBI-Registered Research Analyst with 8+ years expertise in options & swing trading.</div>
+                    <p class="text-base sm:text-lg text-blue-50 max-w-lg">3,000+ traders trained • 1100+ Happy clients • Live market support & guidance • Intraday & Swing Trading Insights • Trading Psychology & Risk Management</p>
                     <div class="flex gap-8 md:gap-12 text-white">
                         <div><div class="text-4xl font-bold">8+</div><div class="text-xs">YEARS EXP.</div></div>
                         <div><div class="text-4xl font-bold">3000+</div><div class="text-xs">TRADERS TRAINED</div></div>
@@ -44,7 +44,7 @@
                 <div class="flex justify-center md:justify-end slide-in-right">
                     <div class="relative max-w-[420px]">
                         <div class="absolute -inset-12 bg-gradient-to-br from-blue-300 via-cyan-300 to-emerald-300 rounded-[4rem] rotate-6 opacity-25 blur-2xl animate-pulse" aria-hidden="true"></div>
-                        <img src="https://res.cloudinary.com/dkv9ghftb/image/upload/v1777581344/traderpaaji-jHB_-yB5_lxaza4.jpg" alt="Kulneet Singh Bindra - TraderPaaji, SEBI Registered Research Analyst INH000014845" class="profile-img w-full rounded-3xl border-[6px] border-white/90" loading="lazy">
+                        <img src="https://res.cloudinary.com/dkv9ghftb/image/upload/v1777581344/traderpaaji-jHB_-yB5_lxaza4.jpg" alt="Kulneet Singh Bindra - TraderPaaji, SEBI RA INH000014845" class="profile-img w-full rounded-3xl border-[6px] border-white/90" loading="lazy">
                         <div class="absolute -top-4 -right-4 bg-white text-blue-900 rounded-2xl px-5 py-3 shadow-xl text-center text-sm">
                             <i class="fas fa-shield-alt text-emerald-500 text-xl" aria-hidden="true"></i>
                             <div class="font-bold text-xs">SEBI Registered</div>

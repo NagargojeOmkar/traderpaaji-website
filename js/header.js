@@ -19,7 +19,7 @@
                                     <span class="hidden sm:inline">SEBI</span> INH000014845
                                 </span>
                             </div>
-                            <p class="text-[10px] sm:text-xs text-gray-500 mt-0.5 truncate hidden sm:block">Kulneet Singh Bindra | BSE 6015</p>
+                            <p class="text-[10px] sm:text-xs text-gray-600 mt-0.5 truncate hidden sm:block">Kulneet Singh Bindra | BSE 6015</p>
                         </div>
                     </div>
 
