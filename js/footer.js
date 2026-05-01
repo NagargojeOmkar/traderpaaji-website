@@ -1,6 +1,6 @@
 (function() {
     document.getElementById('main-footer').innerHTML = `
-        <div class="bg-white border-t border-gray-200 py-8 text-gray-600 text-sm" role="contentinfo" aria-label="Site Footer">
+        <div class="bg-white border-t border-gray-200 py-8 text-gray-600 text-base" role="contentinfo" aria-label="Site Footer">
             <div class="max-w-7xl mx-auto px-5">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 mb-8 text-left">
                     <div>
@@ -11,7 +11,7 @@
                                  loading="lazy">
                             <div class="font-bold text-gray-900 text-base">TraderPaaji</div>
                         </div>
-                        <p class="text-sm mb-3">SEBI Registered Research Analyst (INH000014845). Providing expert trading insights and education.</p>
+                        <p class="mb-3">SEBI Registered Research Analyst (INH000014845). Providing expert trading insights and education.</p>
                         <p class="space-y-1.5">
                             <div class="flex items-start gap-2">
                                 <i class="fas fa-phone-alt mt-0.5 text-blue-700" aria-hidden="true"></i>
@@ -47,7 +47,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="border-t pt-4 text-xs space-y-2">
+                <div class="border-t pt-4 text-sm space-y-2">
                     <p>© 2026 TraderPaaji (Kulneet Singh Bindra) – SEBI Registered Research Analyst INH000014845 | BSE Enlistment 6015</p>
                     <p>Disclaimer: Investment in securities market are subject to market risks. Read all related documents carefully before investing. Registration granted by SEBI does not guarantee performance or returns.</p>
                     <p>Grievance Officer: Kulneet Singh Bindra | traderpaajicompliance@gmail.com | +91 85916 89535 | SEBI Helpline: 1800 22 7575</p>

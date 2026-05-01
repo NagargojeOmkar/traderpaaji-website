@@ -5,7 +5,7 @@
                 <!-- Section Header -->
                 <div class="text-center mb-12 sm:mb-16">
                     <div class="inline-flex items-center gap-2 bg-blue-50 px-4 py-1.5 rounded-full text-sm text-blue-700 font-medium mb-4">
-                        <i class="fas fa-user-tie text-xs" aria-hidden="true"></i> About TraderPaaji
+                        <i class="fas fa-user-tie text-sm" aria-hidden="true"></i> About TraderPaaji
                     </div>
                     <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 heading-font mb-4">Trusted SEBI Registered<br>Research Analyst</h2>
                     <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">Empowering traders with 8+ years of expertise in options, swing trading, and risk management strategies.</p>
@@ -14,21 +14,21 @@
                 <!-- Stats Row -->
                 <div class="grid grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16 max-w-3xl mx-auto">
                     <div class="relative group">
-                        <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900/20 transition-transform group-hover:-translate-y-1">
+                        <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900 transition-transform group-hover:-translate-y-1">
                             <div class="text-3xl sm:text-4xl md:text-5xl font-bold">3K+</div>
-                            <div class="text-[10px] sm:text-xs text-blue-200 font-semibold mt-1 tracking-wider">TRADERS TRAINED</div>
+                            <div class="text-sm text-blue-100 font-semibold mt-1 tracking-wider">TRADERS TRAINED</div>
                         </div>
                     </div>
                     <div class="relative group">
-                        <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900/20 transition-transform group-hover:-translate-y-1">
+                        <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900 transition-transform group-hover:-translate-y-1">
                             <div class="text-3xl sm:text-4xl md:text-5xl font-bold">1100+</div>
-                            <div class="text-[10px] sm:text-xs text-blue-200 font-semibold mt-1 tracking-wider">HAPPY CLIENTS</div>
+                            <div class="text-sm text-blue-100 font-semibold mt-1 tracking-wider">HAPPY CLIENTS</div>
                         </div>
                     </div>
                     <div class="relative group">
-                        <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900/20 transition-transform group-hover:-translate-y-1">
+                        <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900 transition-transform group-hover:-translate-y-1">
                             <div class="text-3xl sm:text-4xl md:text-5xl font-bold">8+</div>
-                            <div class="text-[10px] sm:text-xs text-blue-200 font-semibold mt-1 tracking-wider">YEARS EXP.</div>
+                            <div class="text-sm text-blue-100 font-semibold mt-1 tracking-wider">YEARS EXP.</div>
                         </div>
                     </div>
                 </div>
@@ -48,10 +48,10 @@
                             <p class="text-blue-700 font-semibold mb-3">Founder & SEBI Registered Research Analyst (INH000014845)</p>
                             <p class="text-gray-600 mb-4 leading-relaxed">With over 8 years of trading experience, I specialize in options trading, swing strategies, and risk management. My mission is to empower traders with knowledge and systems that create sustainable success in the markets.</p>
                             <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-semibold shadow-sm">Options Trading</span>
-                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-semibold shadow-sm">Risk Management</span>
-                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-semibold shadow-sm">Trading Psychology</span>
-                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-xs font-semibold shadow-sm">Swing Strategies</span>
+                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-sm font-semibold shadow-sm">Options Trading</span>
+                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-sm font-semibold shadow-sm">Risk Management</span>
+                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-sm font-semibold shadow-sm">Trading Psychology</span>
+                                <span class="bg-white text-blue-700 border border-blue-200 px-3 py-1.5 rounded-full text-sm font-semibold shadow-sm">Swing Strategies</span>
                             </div>
                         </div>
                     </div>

@@ -24,7 +24,7 @@
                             <p class="text-center mb-4">
                                 <img src="https://res.cloudinary.com/dkv9ghftb/image/upload/v1777579236/logo-B5RMp3Hm_zzg5te.png" alt="TraderPaaji Logo" class="mx-auto h-20 object-contain" loading="lazy">
                             </p>
-                            <p class="text-center text-gray-600 text-xs mb-4">As per SEBI (Research Analysts) Regulations, 2014</p>
+                            <p class="text-center text-gray-600 text-sm mb-4">As per SEBI (Research Analysts) Regulations, 2014</p>
 
                             <h3 class="font-bold text-base">Regulatory Disclosures</h3>
                             <h4 class="font-semibold text-sm mt-3">About Myself</h4>
@@ -151,7 +151,7 @@
                                      class="mx-auto max-w-full h-auto rounded-xl shadow-sm"
                                      loading="lazy">
                             </p>
-                            <p class="text-gray-600 text-xs mt-4">SEBI Registration: INH000014845 | Zero pending complaints as on date.</p>
+                            <p class="text-gray-600 text-sm mt-4">SEBI Registration: INH000014845 | Zero pending complaints as on date.</p>
                         </div>
                     </details>
 
@@ -516,8 +516,8 @@
                                 <li><strong>NO WARRANTIES WARNING:</strong> The Research Analyst does not guarantee the accuracy or results of recommended securities.</li>
                                 <li><strong>EXERCISE CAUTION WARNING:</strong> RA KULNEET SINGH GURMEET SINGH BINDRA: INH000014845 provides research analysis and specific securities recommendations but does not offer portfolio management services, personal account handling, profit sharing, or risk-profiling-based investment advisory services.</li>
                             </ul>
-                            <p class="text-xs text-gray-600 mt-4">SEBI Logo: SEBI भारतीय प्रतिभूति और विनिमय बोर्ड Securities and Exchange Board of India</p>
-                            <p class="text-xs text-gray-600">Page 3 of 4</p>
+                            <p class="text-sm text-gray-600 mt-4">SEBI Logo: SEBI भारतीय प्रतिभूति और विनिमय बोर्ड Securities and Exchange Board of India</p>
+                            <p class="text-sm text-gray-600">Page 3 of 4</p>
                         </div>
                     </details>
 
@@ -528,7 +528,7 @@
                         </summary>
                         <div class="p-6 bg-white rounded-b-xl shadow-md space-y-4 text-sm">
                             <p class="text-center text-gray-600 mb-4">Transparent policies for your peace of mind</p>
-                            <p class="text-center text-xs text-gray-600 mb-6">SEBI Registered Research Analyst: INH000014845</p>
+                            <p class="text-center text-sm text-gray-600 mb-6">SEBI Registered Research Analyst: INH000014845</p>
 
                             <h3 class="font-bold text-base">Refund Policy</h3>
                             <p>We prioritize our customers and are dedicated to delivering the highest quality services.</p>
@@ -723,11 +723,11 @@
                                 <div><i class="fas fa-id-card" aria-hidden="true"></i> <strong>BSE Enlistment Number:</strong> 6015</div>
                             </div>
                             <div class="mt-2"><i class="fas fa-phone-alt" aria-hidden="true"></i> <strong>SEBI Helpline:</strong> 1800 22 7575 or 1800 266 7575</div>
-                            <p class="mt-3 text-xs text-gray-600">For compliance-related queries, please contact our grievance officer at traderpaajicompliance@gmail.com</p>
+                            <p class="mt-3 text-sm text-gray-600">For compliance-related queries, please contact our grievance officer at traderpaajicompliance@gmail.com</p>
                         </div>
                     </details>
                 </div>
-                <p class="text-center text-gray-600 text-xs mt-10">SEBI Registration: INH000014845 | BSE Enlistment: 6015 | Kulneet Singh Bindra (TraderPaaji)</p>
+                <p class="text-center text-gray-600 text-sm mt-10">SEBI Registration: INH000014845 | BSE Enlistment: 6015 | Kulneet Singh Bindra (TraderPaaji)</p>
             </div>
         </div>
     `;
