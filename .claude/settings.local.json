@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -c js/compliance.js)",
+      "Bash(node -c js/quickbio.js)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(node -c js/hero.js)",
+      "Bash(node update_policies.js)"
+    ]
+  }
+}

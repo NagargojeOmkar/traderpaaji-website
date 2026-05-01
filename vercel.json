@@ -1,0 +1,10 @@
+{
+    "rewrites": [
+        { "source": "/disclosure", "destination": "/disclosure.html" },
+        { "source": "/disclosure/", "destination": "/disclosure.html" },
+        { "source": "/complaint-board", "destination": "/complaint-board.html" },
+        { "source": "/complaint-board/", "destination": "/complaint-board.html" },
+        { "source": "/investor-charter", "destination": "/investor-charter.html" },
+        { "source": "/investor-charter/", "destination": "/investor-charter.html" }
+    ]
+}

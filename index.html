@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>TraderPaaji | SEBI Registered Research Analyst (INH000014845)</title>
+    <meta name="description" content="SEBI Registered Research Analyst providing expert trading insights, options & swing trading strategies.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/compliance.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Accessibility Widget Button -->
+    <button id="accessibilityWidgetBtn" class="accessibility-widget-btn" aria-label="Open accessibility options" aria-expanded="false">
+        <i class="fas fa-universal-access text-2xl" aria-hidden="true"></i>
+    </button>
+
+    <!-- Accessibility Panel (cycling controls) -->
+    <div id="accessPanel" class="access-panel" role="dialog" aria-labelledby="access-panel-title" aria-hidden="true">
+        <h3 id="access-panel-title" class="text-xl font-bold mb-3">Accessibility Options</h3>
+        <div class="access-controls-grid">
+            <div class="access-item"><i class="fas fa-adjust" aria-hidden="true"></i><span>Contrast</span><button id="contrastCycle" class="cycle-btn" data-category="contrast">Normal</button></div>
+            <div class="access-item"><i class="fas fa-tint" aria-hidden="true"></i><span>Grayscale</span><button id="grayscaleCycle" class="cycle-btn" data-category="grayscale">Off</button></div>
+            <div class="access-item"><i class="fas fa-text-height" aria-hidden="true"></i><span>Text Size</span><button id="textSizeCycle" class="cycle-btn" data-category="text-size">Normal</button></div>
+            <div class="access-item"><i class="fas fa-paragraph" aria-hidden="true"></i><span>Line Height</span><button id="lineHeightCycle" class="cycle-btn" data-category="line-height">Normal</button></div>
+            <div class="access-item"><i class="fas fa-align-left" aria-hidden="true"></i><span>Text Align</span><button id="alignCycle" class="cycle-btn" data-category="text-align">Left</button></div>
+            <div class="access-item"><i class="fas fa-font" aria-hidden="true"></i><span>Readable Font</span><button id="fontCycle" class="cycle-btn" data-category="font-family">Default</button></div>
+            <div class="access-item"><i class="fas fa-link" aria-hidden="true"></i><span>Underline Links</span><button id="underlineCycle" class="cycle-btn" data-category="underline-links">None</button></div>
+            <div class="access-item"><i class="fas fa-film" aria-hidden="true"></i><span>Reduce Motion</span><button id="motionCycle" class="cycle-btn" data-category="reduce-motion">Animate</button></div>
+        </div>
+        <button id="resetAccessibility" class="reset-btn mt-4">Reset All Settings</button>
+    </div>
+
+    <div id="app">
+        <header id="main-header"></header>
+        <main id="main-content">
+            <section id="hero-section"></section>
+            <div id="quick-bio"></div>
+            <section id="services-section"></section>   <!-- New: detailed pricing tables -->
+            <div id="compliance-section"></div>
+        </main>
+        <footer id="main-footer"></footer>
+    </div>
+
+    <script src="js/accessibility.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/quickbio.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/compliance.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

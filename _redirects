@@ -1,0 +1,12 @@
+# Netlify redirects - clean URLs without .html extension
+/disclosure  /disclosure.html  301
+/complaint-board  /complaint-board.html  301
+/investor-charter  /investor-charter.html  301
+
+# Handle trailing slashes
+/disclosure/  /disclosure.html  301
+/complaint-board/  /complaint-board.html  301
+/investor-charter/  /investor-charter.html  301
+
+# SPA fallback (if needed)
+# /*  /index.html  200

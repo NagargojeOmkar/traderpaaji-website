@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Investor Charter & Grievance Redressal | TraderPaaji - SEBI Registered Research Analyst (INH000014845)</title>
+    <meta name="description" content="SEBI Investor Charter and Grievance Redressal Mechanism for TraderPaaji - Kulneet Singh Bindra, SEBI Registered Research Analyst INH000014845">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/compliance.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Accessibility Widget Button -->
+    <button id="accessibilityWidgetBtn" class="accessibility-widget-btn" aria-label="Open accessibility options" aria-expanded="false">
+        <i class="fas fa-universal-access text-2xl" aria-hidden="true"></i>
+    </button>
+
+    <!-- Accessibility Panel -->
+    <div id="accessPanel" class="access-panel" role="dialog" aria-labelledby="access-panel-title" aria-hidden="true">
+        <h3 id="access-panel-title" class="text-xl font-bold mb-3">Accessibility Options</h3>
+        <div class="access-controls-grid">
+            <div class="access-item"><i class="fas fa-adjust" aria-hidden="true"></i><span>Contrast</span><button id="contrastCycle" class="cycle-btn" data-category="contrast">Normal</button></div>
+            <div class="access-item"><i class="fas fa-tint" aria-hidden="true"></i><span>Grayscale</span><button id="grayscaleCycle" class="cycle-btn" data-category="grayscale">Off</button></div>
+            <div class="access-item"><i class="fas fa-text-height" aria-hidden="true"></i><span>Text Size</span><button id="textSizeCycle" class="cycle-btn" data-category="text-size">Normal</button></div>
+            <div class="access-item"><i class="fas fa-paragraph" aria-hidden="true"></i><span>Line Height</span><button id="lineHeightCycle" class="cycle-btn" data-category="line-height">Normal</button></div>
+            <div class="access-item"><i class="fas fa-align-left" aria-hidden="true"></i><span>Text Align</span><button id="alignCycle" class="cycle-btn" data-category="text-align">Left</button></div>
+            <div class="access-item"><i class="fas fa-font" aria-hidden="true"></i><span>Readable Font</span><button id="fontCycle" class="cycle-btn" data-category="font-family">Default</button></div>
+            <div class="access-item"><i class="fas fa-link" aria-hidden="true"></i><span>Underline Links</span><button id="underlineCycle" class="cycle-btn" data-category="underline-links">None</button></div>
+            <div class="access-item"><i class="fas fa-film" aria-hidden="true"></i><span>Reduce Motion</span><button id="motionCycle" class="cycle-btn" data-category="reduce-motion">Animate</button></div>
+        </div>
+        <button id="resetAccessibility" class="reset-btn mt-4">Reset All Settings</button>
+    </div>
+
+    <div id="app">
+        <header id="main-header"></header>
+        <main id="main-content">
+            <div id="investor-charter-content"></div>
+        </main>
+        <footer id="main-footer"></footer>
+    </div>
+
+    <script src="js/accessibility.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+        (function() {
+            document.getElementById('investor-charter-content').innerHTML = `
+                <div class="bg-slate-50 py-16 px-5" role="region" aria-label="Investor Charter and Grievance Redressal">
+                    <div class="max-w-6xl mx-auto">
+                        <h1 class="text-3xl md:text-4xl font-bold text-center text-blue-900 heading-font mb-8">Investor Charter & Grievance Redressal</h1>
+
+                        <!-- INVESTOR CHARTER SECTION -->
+                        <div class="bg-white rounded-2xl shadow-md p-6 md:p-8 space-y-6 text-sm mb-8">
+                            <h2 class="text-2xl font-bold text-blue-800 border-b pb-3">Investor Charter</h2>
+
+                            <div>
+                                <h3 class="font-bold text-base">A. Vision and Mission Statements for Investors</h3>
+                                <p><strong>Vision:</strong> Invest with knowledge & safety.</p>
+                                <p><strong>Mission:</strong> Every investor should be able to invest in right investment products based on their needs, manage and monitor them to meet their goals, access reports and enjoy financial wellness.</p>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-base mt-4">B. Details of Business Transacted by the Research Analyst with Respect to the Investors</h3>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>To publish research report based on the research activities of the RA</li>
+                                    <li>To provide an independent unbiased view on securities.</li>
+                                    <li>To offer unbiased recommendation, disclosing the financial interests in recommended securities.</li>
+                                    <li>To provide research recommendation, based on analysis of publicly available information and known observations.</li>
+                                    <li>To conduct audit annually</li>
+                                    <li>To ensure that all advertisements are in adherence to the provisions of the Advertisement Code for Research Analysts.</li>
+                                    <li>To maintain records of interactions, with all clients including prospective clients (prior to onboarding), where any conversation related to the research services has taken place.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-base mt-4">C. Details of Services Provided to Investors (No Indicative Timelines)</h3>
+                                <h4 class="font-semibold text-sm mt-2">Onboarding of Clients</h4>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>Sharing of terms and conditions of research services</li>
+                                    <li>Completing KYC of fee paying clients</li>
+                                </ul>
+                                <h4 class="font-semibold text-sm mt-2">Disclosure to Clients:</h4>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>To disclose information that is material for the client to make an informed decision, including details of its business activity, disciplinary history, the terms and conditions of research services, details of associates, risks and conflicts of interest, if any</li>
+                                    <li>To disclose the extent of use of Artificial Intelligence tools in providing research services</li>
+                                    <li>To disclose, while distributing a third party research report, any material conflict of interest of such third party research provider or provide web address that directs a recipient to the relevant disclosures</li>
+                                    <li>To disclose any conflict of interest of the activities of providing research services with other activities of the research analyst.</li>
+                                </ul>
+                                <h4 class="font-semibold text-sm mt-2">Service Standards:</h4>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>To distribute research reports and recommendations to the clients without discrimination.</li>
+                                    <li>To maintain confidentiality w.r.t publication of the research report until made available in the public domain.</li>
+                                    <li>To respect data privacy rights of clients and take measures to protect unauthorized use of their confidential information</li>
+                                    <li>To disclose the timelines for the services provided by the research analyst to clients and ensure adherence to the said timelines</li>
+                                    <li>To provide clear guidance and adequate caution notice to clients when providing recommendations for dealing in complex and high-risk financial products/services</li>
+                                    <li>To treat all clients with honesty and integrity</li>
+                                    <li>To ensure confidentiality of information shared by clients unless such information is required to be provided in furtherance of discharging legal obligations or a client has provided specific consent to share such information.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-base mt-4">D. Details of Grievance Redressal Mechanism and How to Access It</h3>
+                                <p><strong>1. Investor can lodge complaint/grievance against Research Analyst in the following ways:</strong></p>
+                                <p><strong>Mode of filing the complaint with research analyst:</strong></p>
+                                <p>In case of any grievance / complaint, an investor may approach the concerned Research Analyst who shall strive to redress the grievance immediately, but not later than 21 days of the receipt of the grievance.</p>
+                                <p><strong>Mode of filing the complaint on SCORES or with Research Analyst Administration and Supervisory Body (RAASB):</strong></p>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li><strong>SCORES 2.0</strong> (a web based centralized grievance redressal system of SEBI for facilitating effective grievance redressal in time-bound manner) (<a href="https://scores.sebi.gov.in" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://scores.sebi.gov.in</a>)</li>
+                                    <li>Two level review for complaint/grievance against Research Analyst:
+                                        <ul class="list-disc pl-5 space-y-1 mt-1">
+                                            <li>First review done by designated body (RAASB)</li>
+                                            <li>Second review done by SEBI</li>
+                                        </ul>
+                                    </li>
+                                    <li>Email to designated email ID of RAASB</li>
+                                </ul>
+                                <p><strong>2. If the Investor is not satisfied with the resolution provided by the Market Participants, then the Investor has the option to file the complaint/ grievance on SMARTODR platform for its resolution through online conciliation or arbitration.</strong></p>
+                                <p><strong>With regard to physical complaints, investors may send their complaints to:</strong></p>
+                                <p>Office of Investor Assistance and Education,<br>
+                                Securities and Exchange Board of India,<br>
+                                SEBI Bhavan, Plot No. C4-A, 'G' Block,<br>
+                                Bandra-Kurla Complex, Bandra (E),<br>
+                                Mumbai - 400 051</p>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-base mt-4">E. Rights of Investors</h3>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>Right to Privacy and Confidentiality</li>
+                                    <li>Right to Transparent Practices</li>
+                                    <li>Right to fair and Equitable Treatment</li>
+                                    <li>Right to Adequate Information</li>
+                                    <li>Right to Initial and Continuing Disclosure - Right to receive information about all the statutory and regulatory disclosures</li>
+                                    <li>Right to Fair & True Advertisement</li>
+                                    <li>Right to Awareness about Service Parameters and Turnaround Times</li>
+                                    <li>Right to be informed of the timelines for each service</li>
+                                    <li>Right to be Heard and Satisfactory Grievance Redressal</li>
+                                    <li>Right to have timely redressal</li>
+                                    <li>Right to Exit from Financial product or service in accordance with the terms and conditions agreed with the research analyst</li>
+                                    <li>Right to receive clear guidance and caution notice when dealing in Complex and High-Risk Financial Products and Services</li>
+                                    <li>Additional Rights to vulnerable consumers - Right to get access to services in a suitable manner even if differently abled</li>
+                                    <li>Right to provide feedback on the financial products and services used</li>
+                                    <li>Right against coercive, unfair, and one-sided clauses in financial agreements</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-base mt-4">F. Expectations from the Investors (Responsibilities of Investors)</h3>
+                                <h4 class="font-semibold text-green-700 text-sm mt-2">Do's</h4>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>Always deal with SEBI registered Research Analyst.</li>
+                                    <li>Ensure that the Research Analyst has a valid registration certificate.</li>
+                                    <li>Check for SEBI registration number. Please refer to the list of all SEBI registered Research Analyst which is available on SEBI website: <a href="https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=14" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">View SEBI Registered Research Analysts</a></li>
+                                    <li>Always pay attention towards disclosures made in the research reports before investing.</li>
+                                    <li>Pay your Research Analyst through banking channels only and maintain duly signed receipts mentioning the details of your payments. You may make payment of fees through Centralised Fee Collection Mechanism (CeFCoM) of RAASB if research analyst has opted for the mechanism. (Applicable for fee paying clients only)</li>
+                                    <li>Before buying/ selling securities or applying in public offer, check for the research recommendation provided by your Research Analyst.</li>
+                                    <li>Ask all relevant questions and clear your doubts with your Research Analyst before acting on recommendation.</li>
+                                    <li>Seek clarifications and guidance on research recommendations from your Research Analyst, especially if it involves complex and high risk financial products and services.</li>
+                                    <li>Always be aware that you have the right to stop availing the service of a Research Analyst as per the terms of service agreed between you and your Research Analyst.</li>
+                                    <li>Always be aware that you have the right to provide feedback to your Research Analyst in respect of the services received.</li>
+                                    <li>Always be aware that you will not be bound by any clause, prescribed by the research analyst, which is contravening any regulatory provisions.</li>
+                                    <li>Inform SEBI about Research Analyst offering assured or guaranteed returns.</li>
+                                </ul>
+                                <h4 class="font-semibold text-red-700 text-sm mt-2">Don'ts</h4>
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>Do not provide funds for investment to the Research Analyst.</li>
+                                    <li>Don't fall prey to luring advertisements or market rumors.</li>
+                                    <li>Do not get attracted to limited period discount or other incentive, gifts, etc. offered by Research Analyst.</li>
+                                    <li>Do not share login credential and password of your trading, demat or bank accounts with the Research Analyst.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- GRIEVANCE REDRESSAL SECTION -->
+                        <div class="bg-white rounded-2xl shadow-md p-6 md:p-8 space-y-6 text-sm">
+                            <h2 class="text-2xl font-bold text-blue-800 border-b pb-3">Grievance Redressal Mechanism</h2>
+
+                            <p class="text-center text-gray-600 mb-4">We are committed to resolving your concerns promptly</p>
+
+                            <h3 class="font-bold text-base">Contact Details</h3>
+                            <div class="overflow-x-auto">
+                                <table class="complaint-table w-full text-sm">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Designation</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Address</th>
+                                            <th scope="col">Contact</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Customer Care</th>
+                                            <td>Kulneet Singh Bindra</td>
+                                            <td>C2 2:3 New Avadhut Society, Sector 7, Sanpada, 400705</td>
+                                            <td>8591689535</td>
+                                            <td>traderpaajicompliance@gmail.com</td>
+                                            <td>11 am to 7pm</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Head of Customer Care</th>
+                                            <td>Kulneet Singh Bindra</td>
+                                            <td>C2 2:3 New Avadhut Society, Sector 7, Sanpada, 400705</td>
+                                            <td>8591689535</td>
+                                            <td>traderpaajicompliance@gmail.com</td>
+                                            <td>11 am to 7pm</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Compliance Officer</th>
+                                            <td>Kulneet Singh Bindra</td>
+                                            <td>C2 2:3 New Avadhut Society, Sector 7, Sanpada, 400705</td>
+                                            <td>8591689535</td>
+                                            <td>traderpaajicompliance@gmail.com</td>
+                                            <td>11 am to 7pm</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">CEO</th>
+                                            <td>Kulneet Singh Bindra</td>
+                                            <td>C2 2:3 New Avadhut Society, Sector 7, Sanpada, 400705</td>
+                                            <td>8591689535</td>
+                                            <td>traderpaajicompliance@gmail.com</td>
+                                            <td>11 am to 7pm</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Principal Officer</th>
+                                            <td>Kulneet Singh Bindra</td>
+                                            <td>C2 2:3 New Avadhut Society, Sector 7, Sanpada, 400705</td>
+                                            <td>8591689535</td>
+                                            <td>traderpaajicompliance@gmail.com</td>
+                                            <td>11 am to 7pm</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nodal Officer</th>
+                                            <td>Kulneet Singh Bindra</td>
+                                            <td>C2 2:3 New Avadhut Society, Sector 7, Sanpada, 400705</td>
+                                            <td>8591689535</td>
+                                            <td>traderpaajicompliance@gmail.com</td>
+                                            <td>11 am to 7pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h3 class="font-bold text-base mt-6">Resolution Process</h3>
+                            <div class="space-y-4">
+                                <div class="bg-slate-50 p-4 rounded-xl">
+                                    <h4 class="font-semibold text-sm mb-2">1. Contact Research Analyst</h4>
+                                    <p>First contact our Research Analyst using the details in the contact table above. We strive to redress grievances immediately, but not later than 21 days of receipt.</p>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl">
+                                    <h4 class="font-semibold text-sm mb-2">2. SEBI SCORES Platform</h4>
+                                    <p>File online at: <a href="https://scores.sebi.gov.in" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://scores.sebi.gov.in</a></p>
+                                    <p class="text-xs text-gray-600 mt-1">Two-level review: First by RAASB, then by SEBI</p>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl">
+                                    <h4 class="font-semibold text-sm mb-2">3. SMARTODR Platform</h4>
+                                    <p>For unresolved complaints: <a href="https://smartodr.in/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://smartodr.in/</a></p>
+                                    <p class="text-xs text-gray-600 mt-1">Online conciliation or arbitration</p>
+                                </div>
+                            </div>
+
+                            <h3 class="font-bold text-base mt-6">Physical Address for Complaints</h3>
+                            <div class="bg-slate-50 p-4 rounded-xl">
+                                <p>Office of Investor Assistance and Education,<br>
+                                Securities and Exchange Board of India,<br>
+                                SEBI Bhavan, Plot No. C4-A, 'G' Block,<br>
+                                Bandra-Kurla Complex, Bandra (E),<br>
+                                Mumbai - 400 051</p>
+                            </div>
+
+                            <h3 class="font-bold text-base mt-6">SEBI Contact Information</h3>
+                            <div class="bg-slate-50 p-4 rounded-xl">
+                                <p><strong>SEBI Toll-Free Number:</strong> 1800 22 7575 or 1800 266 7575</p>
+                                <p><strong>SEBI SCORES:</strong> <a href="https://scores.sebi.gov.in/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://scores.sebi.gov.in/</a></p>
+                                <p><strong>SEBI ODR:</strong> <a href="https://smartodr.in/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://smartodr.in/</a></p>
+                                <p><strong>SEBI Office Addresses:</strong> <a href="https://www.sebi.gov.in/contact-us.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://www.sebi.gov.in/contact-us.html</a></p>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-8">
+                            <a href="/" class="bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-800 transition inline-flex items-center gap-2" aria-label="Back to homepage">
+                                <i class="fas fa-arrow-left" aria-hidden="true"></i> Back to Homepage
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        })();
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>

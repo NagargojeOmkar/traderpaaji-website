@@ -1,0 +1,30 @@
+.compliance-card { transition: all 0.2s ease; }
+details > summary { list-style: none; cursor: pointer; }
+details > summary::-webkit-details-marker,
+details > summary::marker { display: none; }
+.faq-summary { transition: background 0.2s; }
+.faq-summary:hover { background: #eef2ff; }
+.complaint-table { width: 100%; border-collapse: collapse; min-width: 600px; }
+.complaint-table th, .complaint-table td {
+    border: 1px solid #cbd5e1;
+    padding: 8px;
+    text-align: center;
+}
+.complaint-table th { background: #f8fafc; font-weight: 600; }
+
+/* Responsive tables - wrap in horizontal scroller on mobile */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0;
+}
+.table-responsive table {
+    min-width: 600px;
+}
+@media (max-width: 640px) {
+    .complaint-table th,
+    .complaint-table td {
+        padding: 6px 4px;
+        font-size: 11px;
+    }
+}

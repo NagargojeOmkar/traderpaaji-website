@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Complaint Board | TraderPaaji - SEBI Registered Research Analyst (INH000014845)</title>
+    <meta name="description" content="SEBI Complaint Data and Resolution Status for TraderPaaji - Kulneet Singh Bindra, SEBI Registered Research Analyst INH000014845">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/compliance.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Accessibility Widget Button -->
+    <button id="accessibilityWidgetBtn" class="accessibility-widget-btn" aria-label="Open accessibility options" aria-expanded="false">
+        <i class="fas fa-universal-access text-2xl" aria-hidden="true"></i>
+    </button>
+
+    <!-- Accessibility Panel -->
+    <div id="accessPanel" class="access-panel" role="dialog" aria-labelledby="access-panel-title" aria-hidden="true">
+        <h3 id="access-panel-title" class="text-xl font-bold mb-3">Accessibility Options</h3>
+        <div class="access-controls-grid">
+            <div class="access-item"><i class="fas fa-adjust" aria-hidden="true"></i><span>Contrast</span><button id="contrastCycle" class="cycle-btn" data-category="contrast">Normal</button></div>
+            <div class="access-item"><i class="fas fa-tint" aria-hidden="true"></i><span>Grayscale</span><button id="grayscaleCycle" class="cycle-btn" data-category="grayscale">Off</button></div>
+            <div class="access-item"><i class="fas fa-text-height" aria-hidden="true"></i><span>Text Size</span><button id="textSizeCycle" class="cycle-btn" data-category="text-size">Normal</button></div>
+            <div class="access-item"><i class="fas fa-paragraph" aria-hidden="true"></i><span>Line Height</span><button id="lineHeightCycle" class="cycle-btn" data-category="line-height">Normal</button></div>
+            <div class="access-item"><i class="fas fa-align-left" aria-hidden="true"></i><span>Text Align</span><button id="alignCycle" class="cycle-btn" data-category="text-align">Left</button></div>
+            <div class="access-item"><i class="fas fa-font" aria-hidden="true"></i><span>Readable Font</span><button id="fontCycle" class="cycle-btn" data-category="font-family">Default</button></div>
+            <div class="access-item"><i class="fas fa-link" aria-hidden="true"></i><span>Underline Links</span><button id="underlineCycle" class="cycle-btn" data-category="underline-links">None</button></div>
+            <div class="access-item"><i class="fas fa-film" aria-hidden="true"></i><span>Reduce Motion</span><button id="motionCycle" class="cycle-btn" data-category="reduce-motion">Animate</button></div>
+        </div>
+        <button id="resetAccessibility" class="reset-btn mt-4">Reset All Settings</button>
+    </div>
+
+    <div id="app">
+        <header id="main-header"></header>
+        <main id="main-content">
+            <div id="complaint-board-content"></div>
+        </main>
+        <footer id="main-footer"></footer>
+    </div>
+
+    <script src="js/accessibility.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+        (function() {
+            document.getElementById('complaint-board-content').innerHTML = `
+                <div class="bg-slate-50 py-16 px-5" role="region" aria-label="Complaint Board">
+                    <div class="max-w-6xl mx-auto">
+                        <h1 class="text-3xl md:text-4xl font-bold text-center text-blue-900 heading-font mb-8">Complaint Board</h1>
+
+                        <div class="bg-white rounded-2xl shadow-md p-6 md:p-8 space-y-6 text-sm">
+                            <p class="text-gray-600 mb-4 text-center">As per SEBI regulations, we maintain complete transparency in our complaint resolution process.</p>
+
+                            <div class="text-center">
+                                <img src="https://res.cloudinary.com/dkv9ghftb/image/upload/v1775835498/Enhanced_Complaint_Report_wk1bdx.jpg"
+                                     alt="SEBI Enhanced Complaint Report showing complaint data and resolution status for TraderPaaji (INH000014845)"
+                                     class="mx-auto max-w-full h-auto rounded-xl shadow-sm"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="bg-green-50 border border-green-200 rounded-xl p-4 text-center">
+                                <i class="fas fa-check-circle text-green-600 text-2xl mb-2" aria-hidden="true"></i>
+                                <p class="text-green-800 font-semibold">Zero pending complaints as on date</p>
+                                <p class="text-green-700 text-xs mt-1">SEBI Registration: INH000014845</p>
+                            </div>
+
+                            <div class="border-t pt-6">
+                                <h2 class="font-bold text-base mb-4">How to File a Complaint</h2>
+                                <div class="space-y-4">
+                                    <div class="bg-slate-50 p-4 rounded-xl">
+                                        <h3 class="font-semibold text-sm mb-2"><i class="fas fa-envelope mr-2 text-blue-700" aria-hidden="true"></i> Direct Contact</h3>
+                                        <p>Email us at: <a href="mailto:traderpaajicompliance@gmail.com" class="text-blue-600 hover:underline">traderpaajicompliance@gmail.com</a></p>
+                                        <p>Call us at: <a href="tel:+918591689535" class="text-blue-600 hover:underline">+91 85916 89535</a></p>
+                                        <p class="text-xs text-gray-600 mt-1">We strive to redress grievances within 21 days</p>
+                                    </div>
+
+                                    <div class="bg-slate-50 p-4 rounded-xl">
+                                        <h3 class="font-semibold text-sm mb-2"><i class="fas fa-globe mr-2 text-blue-700" aria-hidden="true"></i> SEBI SCORES</h3>
+                                        <p>File online at: <a href="https://scores.sebi.gov.in" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://scores.sebi.gov.in</a></p>
+                                        <p class="text-xs text-gray-600 mt-1">SEBI's centralized grievance redressal system</p>
+                                    </div>
+
+                                    <div class="bg-slate-50 p-4 rounded-xl">
+                                        <h3 class="font-semibold text-sm mb-2"><i class="fas fa-balance-scale mr-2 text-blue-700" aria-hidden="true"></i> SMARTODR Platform</h3>
+                                        <p>For unresolved complaints: <a href="https://smartodr.in/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://smartodr.in/</a></p>
+                                        <p class="text-xs text-gray-600 mt-1">Online conciliation or arbitration</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-8">
+                            <a href="/" class="bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-800 transition inline-flex items-center gap-2" aria-label="Back to homepage">
+                                <i class="fas fa-arrow-left" aria-hidden="true"></i> Back to Homepage
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        })();
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
