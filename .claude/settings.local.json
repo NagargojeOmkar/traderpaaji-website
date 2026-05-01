@@ -6,7 +6,9 @@
       "Bash(python3 -c ' *)",
       "Bash(node -e ' *)",
       "Bash(node -c js/hero.js)",
-      "Bash(node update_policies.js)"
+      "Bash(node update_policies.js)",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:5500)"
     ]
   }
 }

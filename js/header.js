@@ -1,6 +1,6 @@
 (function() {
     document.getElementById('main-header').innerHTML = `
-        <div class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-gray-200/80 shadow-sm">
+        <div class="sticky top-0 z-30 bg-white backdrop-blur-md border-b border-gray-200 shadow-sm">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-16 sm:h-18 md:h-20">
                     <!-- Logo + Brand -->
@@ -43,7 +43,7 @@
             </div>
 
             <!-- Mobile Menu -->
-            <div id="mobileMenu" class="md:hidden hidden bg-white/95 backdrop-blur-md border-t border-gray-100 overflow-hidden" aria-hidden="true">
+            <div id="mobileMenu" class="md:hidden hidden bg-white backdrop-blur-md border-t border-gray-100 overflow-hidden" aria-hidden="true">
                 <div class="px-4 py-3 space-y-1">
                     <a href="/disclosure" class="flex items-center gap-3 text-sm font-medium text-gray-700 hover:text-blue-700 hover:bg-blue-50 active:bg-blue-100 px-4 py-3 rounded-xl transition-all min-h-[44px]" aria-label="View disclosure">
                         <i class="fas fa-file-contract text-blue-600 w-5 text-center" aria-hidden="true"></i>

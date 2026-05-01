@@ -16,25 +16,25 @@
                     <div class="relative group">
                         <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900 transition-transform group-hover:-translate-y-1">
                             <div class="text-3xl sm:text-4xl md:text-5xl font-bold">3K+</div>
-                            <div class="text-sm text-blue-100 font-semibold mt-1 tracking-wider">TRADERS TRAINED</div>
+                            <div class="text-sm text-blue-50 font-semibold mt-1 tracking-wider">TRADERS TRAINED</div>
                         </div>
                     </div>
                     <div class="relative group">
                         <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900 transition-transform group-hover:-translate-y-1">
                             <div class="text-3xl sm:text-4xl md:text-5xl font-bold">1100+</div>
-                            <div class="text-sm text-blue-100 font-semibold mt-1 tracking-wider">HAPPY CLIENTS</div>
+                            <div class="text-sm text-blue-50 font-semibold mt-1 tracking-wider">HAPPY CLIENTS</div>
                         </div>
                     </div>
                     <div class="relative group">
                         <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-5 sm:p-6 rounded-2xl text-center shadow-lg shadow-blue-900 transition-transform group-hover:-translate-y-1">
                             <div class="text-3xl sm:text-4xl md:text-5xl font-bold">8+</div>
-                            <div class="text-sm text-blue-100 font-semibold mt-1 tracking-wider">YEARS EXP.</div>
+                            <div class="text-sm text-blue-50 font-semibold mt-1 tracking-wider">YEARS EXP.</div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Profile Section -->
-                <div class="bg-gradient-to-br from-slate-50 to-blue-50/50 rounded-3xl p-6 sm:p-8 md:p-12 mb-12 sm:mb-16 border border-blue-100/50">
+                <div class="bg-gradient-to-br from-slate-50 to-blue-100 rounded-3xl p-6 sm:p-8 md:p-12 mb-12 sm:mb-16 border border-blue-100">
                     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                         <div class="flex-shrink-0 relative">
                             <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl rotate-3 opacity-20 blur-sm" aria-hidden="true"></div>
@@ -101,21 +101,21 @@
                         </div>
                         <div class="group bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all hover:-translate-y-1">
                             <div class="w-12 h-12 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                                <i class="fas fa-shield-alt text-emerald-600 text-xl" aria-hidden="true"></i>
+                                <i class="fas fa-shield-alt text-emerald-800 text-xl" aria-hidden="true"></i>
                             </div>
                             <h4 class="font-bold text-gray-900 mb-2">Risk Management</h4>
                             <p class="text-sm text-gray-600 leading-relaxed">Prioritizing capital preservation with robust risk protocols and stop-loss strategies.</p>
                         </div>
                         <div class="group bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all hover:-translate-y-1">
                             <div class="w-12 h-12 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                                <i class="fas fa-brain text-purple-600 text-xl" aria-hidden="true"></i>
+                                <i class="fas fa-brain text-purple-800 text-xl" aria-hidden="true"></i>
                             </div>
                             <h4 class="font-bold text-gray-900 mb-2">Trading Psychology</h4>
                             <p class="text-sm text-gray-600 leading-relaxed">Developing the mental discipline needed for consistent success in volatile markets.</p>
                         </div>
                         <div class="group bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all hover:-translate-y-1">
                             <div class="w-12 h-12 bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                                <i class="fas fa-users text-orange-600 text-xl" aria-hidden="true"></i>
+                                <i class="fas fa-users text-orange-800 text-xl" aria-hidden="true"></i>
                             </div>
                             <h4 class="font-bold text-gray-900 mb-2">Client Empowerment</h4>
                             <p class="text-sm text-gray-600 leading-relaxed">Equipping traders with sustainable strategies for long-term market success.</p>
@@ -127,15 +127,15 @@
                 <div class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 rounded-3xl p-8 sm:p-12 text-center text-white max-w-4xl mx-auto relative overflow-hidden">
                     <div class="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] [background-size:32px_32px] opacity-40" aria-hidden="true"></div>
                     <div class="relative z-10">
-                        <i class="fas fa-quote-left text-3xl text-blue-400 mb-4" aria-hidden="true"></i>
+                        <i class="fas fa-quote-left text-3xl text-blue-200 mb-4" aria-hidden="true"></i>
                         <h3 class="text-2xl sm:text-3xl font-bold heading-font mb-6">Trading Philosophy</h3>
-                        <blockquote class="text-lg sm:text-xl text-blue-50 italic mb-4 leading-relaxed">
+                        <blockquote class="text-lg sm:text-xl text-blue-100 italic mb-4 leading-relaxed">
                             "Trading isn't about chasing quick profits, but mastering consistent risk management and disciplined execution."
                         </blockquote>
-                        <blockquote class="text-base sm:text-lg text-blue-200 mb-4">
+                        <blockquote class="text-base sm:text-lg text-blue-100 mb-4">
                             "I believe in empowering traders with knowledge that thrives in all market conditions."
                         </blockquote>
-                        <blockquote class="text-base sm:text-lg text-blue-200">
+                        <blockquote class="text-base sm:text-lg text-blue-100">
                             "The market is always right. Our job is to listen, adapt, and respond with discipline."
                         </blockquote>
                         <div class="mt-8">
