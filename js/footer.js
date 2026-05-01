@@ -9,7 +9,7 @@
                                  alt="TraderPaaji Logo"
                                  class="w-10 h-10 sm:w-12 sm:h-12 object-contain flex-shrink-0"
                                  loading="lazy">
-                            <h4 class="font-bold text-gray-900 text-base">TraderPaaji</h4>
+                            <div class="font-bold text-gray-900 text-base">TraderPaaji</div>
                         </div>
                         <p class="text-sm mb-3">SEBI Registered Research Analyst (INH000014845). Providing expert trading insights and education.</p>
                         <p class="space-y-1.5">

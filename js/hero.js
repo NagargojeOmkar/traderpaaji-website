@@ -1,6 +1,6 @@
 (function() {
     document.getElementById('hero-section').innerHTML = `
-        <div class="hero-bg-custom text-white relative overflow-hidden" role="banner" aria-label="Hero section with introduction to TraderPaaji">
+        <div class="hero-bg-custom text-white relative overflow-hidden" aria-label="Hero section with introduction to TraderPaaji">
             <div class="absolute inset-0 bg-[radial-gradient(#ffffff12_1px,transparent_1px)] [background-size:45px_45px] opacity-30"></div>
             <div class="max-w-7xl mx-auto px-5 sm:px-8 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center relative z-10">
                 <div class="space-y-6 md:space-y-7">
@@ -9,8 +9,8 @@
                         <span class="bg-emerald-400 text-emerald-950 px-3 py-1 rounded-full text-xs font-mono">INH000014845</span>
                     </div>
                     <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold leading-none tracking-tighter heading-font">Master the<br>Markets with<br>TraderPaaji</h1>
-                    <div class="text-lg sm:text-xl md:text-2xl text-blue-100 font-medium">SEBI-Registered Research Analyst with 8+ years expertise in options & swing trading.</div>
-                    <p class="text-base sm:text-lg text-slate-100 max-w-lg">3,000+ traders trained • 1100+ Happy clients • Live market support & guidance • Intraday & Swing Trading Insights • Trading Psychology & Risk Management</p>
+                    <div class="text-lg sm:text-xl md:text-2xl text-blue-50 font-medium">SEBI-Registered Research Analyst with 8+ years expertise in options & swing trading.</div>
+                    <p class="text-base sm:text-lg text-blue-50/90 max-w-lg">3,000+ traders trained • 1100+ Happy clients • Live market support & guidance • Intraday & Swing Trading Insights • Trading Psychology & Risk Management</p>
                     <div class="flex gap-8 md:gap-12 text-white">
                         <div><div class="text-4xl font-bold">8+</div><div class="text-xs">YEARS EXP.</div></div>
                         <div><div class="text-4xl font-bold">3000+</div><div class="text-xs">TRADERS TRAINED</div></div>

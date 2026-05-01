@@ -13,7 +13,7 @@
                         </div>
                         <div class="min-w-0">
                             <div class="flex items-center gap-2 flex-wrap">
-                                <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-gray-900 heading-font truncate">TraderPaaji</h1>
+                                <div class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-gray-900 heading-font truncate">TraderPaaji</div>
                                 <span class="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 text-[9px] sm:text-[10px] font-semibold px-2 py-0.5 rounded-full border border-emerald-200 flex-shrink-0">
                                     <i class="fas fa-shield-check text-[8px] sm:text-[9px]" aria-hidden="true"></i>
                                     <span class="hidden sm:inline">SEBI</span> INH000014845
